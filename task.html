@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/task.css">
+    <title>倒计时</title>
+</head>
+<body background="images/background_img2.jpg">
+    <header class="head">
+        <img src="images/head_img.png" class="head_img">        
+        <span class="head_title">超级无敌最朴素倒计时界面</span>
+    </header>
+    <div class="main_body">
+        <div class="block">
+            <span class="word">名称</span>
+            <textarea name="things" id="things" class="information1"></textarea>
+        </div>
+        <div class="block">
+            <span class="word">简介</span>
+            <textarea name="introduce" id="introduce" class="information2"></textarea>
+        </div>
+        <div class="block">
+            <span class="word">时间设置</span>
+            <textarea name="time" id="time" class="time"></textarea>
+            <span class="word">秒</span>
+        </div>
+        <div class="block">
+            <input type="button" value="开   始" onclick="start()" class="button" id="start">
+            <input type="button" value="停   止" onclick="stop()" class="button" id="stop">
+        </div>
+        <div class="main_function" id="main_function"></div>
+        <script src="js/task.js"></script>       
+    </div>
+</body>
+</html>
